@@ -11,6 +11,11 @@ Fan-made [MelonLoader](https://melonwiki.xyz/) mods for Scritchy Scratchy that r
 - **Jackpot** — press **J** to set every slot on the focused ticket to that ticket type's own jackpot symbol. A test/cheat tool, not meant for legitimate play.
 - **AutoScratch** — press **S** to reveal only the currently-winning slots on the focused ticket once; press **A** to toggle continuous auto-reveal of winning slots as you focus new tickets.
 
+<img width="373" height="321" alt="github_green" src="https://github.com/user-attachments/assets/527413b4-0d67-4aff-9b82-3b60eaf89855" />
+<img width="419" height="320" alt="mini_github_jackpot" src="https://github.com/user-attachments/assets/2e3399c7-57ac-4250-8e51-17059e064157" />
+
+
+
 ## Setup
 
 1. **Install MelonLoader** into your game folder: download a release from [github.com/LavaGang/MelonLoader](https://github.com/LavaGang/MelonLoader) (the plain `MelonLoader.x64.zip`, not the installer), and extract `version.dll` + the `MelonLoader/` folder directly into your Scritchy Scratchy install directory (next to `ScritchyScratchy.exe`).
