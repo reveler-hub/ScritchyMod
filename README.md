@@ -1,19 +1,10 @@
 # ScritchyMod
 
-Fan-made tools for [Scritchy Scratchy](https://store.steampowered.com/) — an external outcome-reading TUI, plus three [MelonLoader](https://melonwiki.xyz/) mods that read and act on real game state.
+Fan-made [MelonLoader](https://melonwiki.xyz/) mods for Scritchy Scratchy that read and act on real game state.
 
 **This is an unofficial project, not affiliated with or endorsed by Lunch Money Games.** It doesn't distribute any of the game's own files — the mods build against interop assemblies MelonLoader generates locally on your own machine from your own game install.
 
 ## What's here
-
-### `Tools/` — read-only, no game modification
-A Python TUI (`ticket_tui.py`) that reads the running game's memory (via `/proc/pid/mem`, Linux/Proton only) to show you a ticket's outcome — which symbols are in which slot, and whether it's a win — before you scratch it. `Ticket_layouts.py` holds hand-verified ASCII art + slot-position mappings per ticket type; add more there as new ticket types are found.
-
-Run with:
-```
-python3 Tools/ticket_tui.py
-```
-It auto-detects the running game process. Requires `numpy`.
 
 ### `Mods/` — MelonLoader mods, require MelonLoader installed in the game
 - **ScritchyOverlay** — draws a colored marker over each currently-winning slot's real on-screen position: green for a normal win, yellow for the ticket's own top-value ("jackpot") symbol, blue for the universal Super Jackpot symbol.
